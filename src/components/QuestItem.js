@@ -139,7 +139,6 @@ const styles = StyleSheet.create({
   },
   actions: {
     flexDirection: 'row',
-    gap: 10,
   },
   button: {
     flex: 1,
@@ -147,6 +146,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 15,
     borderRadius: 8,
     alignItems: 'center',
+    marginRight: 5,
   },
   completeButton: {
     backgroundColor: '#4A90E2',
@@ -160,6 +160,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     borderWidth: 1,
     borderColor: '#D0021B',
+    marginRight: 0,
   },
   deleteButtonText: {
     color: '#D0021B',

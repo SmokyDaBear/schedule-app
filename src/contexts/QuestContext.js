@@ -44,8 +44,10 @@ export const QuestProvider = ({ children }) => {
   };
 
   const addQuest = (title, description, type, date = getTodayString()) => {
+    // Generate ID with timestamp and random component to avoid collisions
+    const id = `${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
     const newQuest = {
-      id: Date.now().toString(),
+      id,
       title,
       description,
       type,

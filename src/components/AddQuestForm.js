@@ -164,7 +164,6 @@ const styles = StyleSheet.create({
   },
   buttons: {
     flexDirection: 'row',
-    gap: 10,
     marginTop: 20,
   },
   button: {
@@ -172,6 +171,7 @@ const styles = StyleSheet.create({
     paddingVertical: 12,
     borderRadius: 8,
     alignItems: 'center',
+    marginRight: 5,
   },
   cancelButton: {
     backgroundColor: '#fff',
@@ -185,6 +185,7 @@ const styles = StyleSheet.create({
   },
   addButton: {
     backgroundColor: '#4A90E2',
+    marginRight: 0,
   },
   addButtonText: {
     color: '#fff',
